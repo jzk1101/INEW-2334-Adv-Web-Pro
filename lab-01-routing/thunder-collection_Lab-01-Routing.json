@@ -1,0 +1,124 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Lab-01-Routing",
+    "collectionId": "f7918dab-e15b-489b-b972-9822a01b9215",
+    "dateExported": "2026-10-01T03:10:52.624Z",
+    "version": "1.4",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1fdc3fef-f59c-42f2-abf0-d0e8113a436e",
+            "colId": "f7918dab-e15b-489b-b972-9822a01b9215",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/items",
+            "url": "http://127.0.0.1:5000/api/items",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2026-10-01T03:07:25.712Z",
+            "modified": "2026-10-01T03:07:25.712Z",
+            "headers": []
+        },
+        {
+            "_id": "2d4386f4-3fe2-445b-a101-e2f6498e2768",
+            "colId": "f7918dab-e15b-489b-b972-9822a01b9215",
+            "containerId": "",
+            "name": "URL: http://127.0.0.1:5000/api/status",
+            "url": "http://127.0.0.1:5000/api/items",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2026-10-01T03:07:34.748Z",
+            "modified": "2026-10-01T03:07:34.748Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Incomplete Course\"",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "e1f3b80f-d87a-4bb6-985b-89ff7e4552ec",
+            "colId": "f7918dab-e15b-489b-b972-9822a01b9215",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/items",
+            "url": "http://127.0.0.1:5000/api/items/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2026-10-01T03:07:53.352Z",
+            "modified": "2026-10-01T03:07:53.352Z",
+            "headers": []
+        },
+        {
+            "_id": "1f7b57e5-02bc-484e-b20d-db1285bc2533",
+            "colId": "f7918dab-e15b-489b-b972-9822a01b9215",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/items/999",
+            "url": "http://127.0.0.1:5000/api/items/999",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2026-10-01T03:08:29.289Z",
+            "modified": "2026-10-01T03:08:29.289Z",
+            "headers": []
+        },
+        {
+            "_id": "d7dd500b-b9fd-4def-a36d-17990597f3cf",
+            "colId": "f7918dab-e15b-489b-b972-9822a01b9215",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/items/1",
+            "url": "http://127.0.0.1:5000/api/items/1",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2026-10-01T03:08:43.083Z",
+            "modified": "2026-10-01T03:08:43.083Z",
+            "headers": []
+        },
+        {
+            "_id": "fd2a748d-d89a-4100-bbed-ff591f022aca",
+            "colId": "f7918dab-e15b-489b-b972-9822a01b9215",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/items",
+            "url": "http://127.0.0.1:5000/api/items",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2026-10-01T03:09:03.300Z",
+            "modified": "2026-10-01T03:09:03.300Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Linux Administration\",",
+                    "  \"category\": \"Systems\"",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "ff004f1c-8ab2-45df-9dda-d3667b7a98b4",
+            "colId": "f7918dab-e15b-489b-b972-9822a01b9215",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/items",
+            "url": "http://127.0.0.1:5000/api/items",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2026-10-01T03:09:58.485Z",
+            "modified": "2026-10-01T03:09:58.485Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Linux Administration\",",
+                    "  \"category\": \"Systems\"",
+                    "}"
+                ],
+                "form": []
+            }
+        }
+    ],
+    "ref": "FzOJBUg3ZQVt2y-fa3qmUew7-YQmhwulM75k_07662NNCaIynQfd9ZORMYcrjPk4k-rcRki077TFhhI7pf-3jg"
+}
